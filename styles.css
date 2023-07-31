@@ -1,0 +1,78 @@
+@font-face {
+  src: url('fonts/CursedTimerUlil-Aznm.ttf');
+  /* You can call the imported font-family whatever name you want  */
+  font-family: CursedTimer;
+}
+
+body {
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+  background-color: hsl(227, 51%, 20%);
+  /* display: flex;
+  justify-content: space-around; */
+  width: 1200px;
+  margin: 10px auto;
+  border-radius: 20px;
+  padding-bottom: 40px;
+}
+
+.scoreboards {
+  display: flex;
+  justify-content: space-around;
+}
+
+.score {
+  text-align: center;
+}
+
+.black-box {
+  background-color: #080001;
+  width: 300px;
+  text-align: center;
+  border-radius: 10px;
+  margin-bottom: 40px;
+}
+
+.btn-box {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 40px;
+}
+
+.btn-score,
+.btn-reset {
+  font-size: 24px;
+  font-family: CursedTimer;
+  padding: 20px;
+  color: #9aabd8;
+  background-color: hsl(227, 51%, 20%);
+  border: 3px solid #9aabd8;
+  border-radius: 10px;
+}
+
+.btn-reset {
+  display: block;
+  margin: 0 auto;
+}
+
+.btn-score:hover {
+  cursor: pointer;
+  background-color: hsl(227, 51%, 38%);
+}
+
+h1 {
+  font-size: 80px;
+  margin: 60px 0 40px 0;
+  color: #eee;
+}
+
+p {
+  font-size: 120px;
+  font-family: CursedTimer;
+  color: #f94f6d;
+  margin: 0;
+  padding: 20px 0;
+}
