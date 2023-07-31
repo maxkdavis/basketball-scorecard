@@ -25,6 +25,9 @@ body {
 }
 
 .score {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
 }
 
@@ -40,6 +43,7 @@ body {
   display: flex;
   justify-content: space-evenly;
   margin-bottom: 40px;
+  gap: 20px;
 }
 
 .btn-score,
